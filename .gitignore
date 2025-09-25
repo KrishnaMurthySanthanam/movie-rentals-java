@@ -1,0 +1,18 @@
+# Maven target directory
+/target/
+
+# IDE files
+/.idea/
+/*.iml
+*.iws
+*.ipr
+
+# VS Code files
+.vscode/
+
+# Java build artifacts
+*.class
+*.jar
+
+# IntelliJ run configs
+*.run.xml
