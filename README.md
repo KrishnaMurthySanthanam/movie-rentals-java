@@ -32,7 +32,7 @@ mvn package
 ```
 ###  Run the packaged application
 ```bash
-java -cp target/movie-rentals-1.0-SNAPSHOT.jar com.etraveli.movierental.Main
+java -cp target/movie-rentals-1.0-0.jar com.etraveli.movierental.Main
 ``` 
 ---
 
