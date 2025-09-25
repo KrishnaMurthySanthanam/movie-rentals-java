@@ -1,0 +1,33 @@
+# Maven target directory
+/target/
+
+# Logs
+*.log
+
+# IDE files
+/.idea/
+/*.iml
+*.iws
+*.ipr
+
+# VS Code files
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Java build artifacts
+*.class
+*.jar
+*.war
+
+# Temporary files
+*.tmp
+*.swp
+
+# IntelliJ run configs
+*.run.xml
