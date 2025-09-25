@@ -1,10 +1,10 @@
-package com.krishna.movierental;
+package com.etraveli.movierental;
 
-import com.krishna.movierental.domain.model.Customer;
-import com.krishna.movierental.domain.model.MovieRental;
-import com.krishna.movierental.repository.MovieRepository;
-import com.krishna.movierental.repository.MovieRepositoryImpl;
-import com.krishna.movierental.service.RentalInfo;
+import com.etraveli.movierental.domain.model.Customer;
+import com.etraveli.movierental.domain.model.MovieRental;
+import com.etraveli.movierental.repository.MovieRepository;
+import com.etraveli.movierental.repository.MovieRepositoryImpl;
+import com.etraveli.movierental.service.RentalInfo;
 
 import java.util.List;
 

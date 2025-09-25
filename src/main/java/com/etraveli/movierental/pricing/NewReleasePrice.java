@@ -1,4 +1,4 @@
-package com.krishna.movierental.pricing;
+package com.etraveli.movierental.pricing;
 
 public class NewReleasePrice extends Price {
 

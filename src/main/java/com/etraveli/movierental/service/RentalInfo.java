@@ -1,12 +1,12 @@
-package com.krishna.movierental.service;
+package com.etraveli.movierental.service;
 
-import com.krishna.movierental.domain.dto.MovieRentalDetail;
-import com.krishna.movierental.domain.dto.RentalSummary;
-import com.krishna.movierental.domain.model.Customer;
-import com.krishna.movierental.domain.model.Movie;
-import com.krishna.movierental.domain.model.MovieRental;
-import com.krishna.movierental.exception.MovieNotFoundException;
-import com.krishna.movierental.repository.MovieRepository;
+import com.etraveli.movierental.domain.dto.MovieRentalDetail;
+import com.etraveli.movierental.domain.dto.RentalSummary;
+import com.etraveli.movierental.domain.model.Customer;
+import com.etraveli.movierental.domain.model.Movie;
+import com.etraveli.movierental.domain.model.MovieRental;
+import com.etraveli.movierental.exception.MovieNotFoundException;
+import com.etraveli.movierental.repository.MovieRepository;
 
 import java.util.Optional;
 

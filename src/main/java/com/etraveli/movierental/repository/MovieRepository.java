@@ -1,6 +1,6 @@
-package com.krishna.movierental.repository;
+package com.etraveli.movierental.repository;
 
-import com.krishna.movierental.domain.model.Movie;
+import com.etraveli.movierental.domain.model.Movie;
 
 import java.util.Map;
 import java.util.Optional;

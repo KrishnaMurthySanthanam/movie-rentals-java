@@ -1,4 +1,4 @@
-package com.krishna.movierental.domain.model;
+package com.etraveli.movierental.domain.model;
 
 import java.util.List;
 

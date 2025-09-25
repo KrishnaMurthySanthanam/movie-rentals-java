@@ -1,9 +1,9 @@
-package com.krishna.movierental.domain.model;
+package com.etraveli.movierental.domain.model;
 
-import com.krishna.movierental.pricing.ChildrenPrice;
-import com.krishna.movierental.pricing.NewReleasePrice;
-import com.krishna.movierental.pricing.Price;
-import com.krishna.movierental.pricing.RegularPrice;
+import com.etraveli.movierental.pricing.ChildrenPrice;
+import com.etraveli.movierental.pricing.NewReleasePrice;
+import com.etraveli.movierental.pricing.Price;
+import com.etraveli.movierental.pricing.RegularPrice;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

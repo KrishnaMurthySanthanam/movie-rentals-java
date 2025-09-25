@@ -1,12 +1,12 @@
-package com.krishna.movierental;
+package com.etraveli.movierental;
 
-import com.krishna.movierental.domain.model.Customer;
-import com.krishna.movierental.domain.model.MovieRental;
-import com.krishna.movierental.exception.InvalidRentalPeriodException;
-import com.krishna.movierental.exception.MovieNotFoundException;
-import com.krishna.movierental.repository.MovieRepository;
-import com.krishna.movierental.repository.MovieRepositoryImpl;
-import com.krishna.movierental.service.RentalInfo;
+import com.etraveli.movierental.domain.model.Customer;
+import com.etraveli.movierental.domain.model.MovieRental;
+import com.etraveli.movierental.exception.InvalidRentalPeriodException;
+import com.etraveli.movierental.exception.MovieNotFoundException;
+import com.etraveli.movierental.repository.MovieRepository;
+import com.etraveli.movierental.repository.MovieRepositoryImpl;
+import com.etraveli.movierental.service.RentalInfo;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

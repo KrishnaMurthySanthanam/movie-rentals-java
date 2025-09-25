@@ -1,6 +1,6 @@
-package com.krishna.movierental.domain.model;
+package com.etraveli.movierental.domain.model;
 
-import com.krishna.movierental.exception.InvalidRentalPeriodException;
+import com.etraveli.movierental.exception.InvalidRentalPeriodException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

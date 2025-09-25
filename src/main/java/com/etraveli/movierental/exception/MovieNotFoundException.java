@@ -1,4 +1,4 @@
-package com.krishna.movierental.exception;
+package com.etraveli.movierental.exception;
 
 public class MovieNotFoundException extends RuntimeException {
 

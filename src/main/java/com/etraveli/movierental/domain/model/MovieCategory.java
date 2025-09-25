@@ -1,4 +1,4 @@
-package com.krishna.movierental.domain.model;
+package com.etraveli.movierental.domain.model;
 
 public enum MovieCategory {
     REGULAR,

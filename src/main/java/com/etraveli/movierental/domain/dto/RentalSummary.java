@@ -1,4 +1,4 @@
-package com.krishna.movierental.domain.dto;
+package com.etraveli.movierental.domain.dto;
 
 import java.util.ArrayList;
 import java.util.List;
