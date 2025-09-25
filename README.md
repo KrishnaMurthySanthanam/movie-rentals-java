@@ -7,6 +7,8 @@ A Java application to creates an information slip about movie rentals.
 ### Prerequisites
 - Java 21+
 - Maven 3.8+
+- JUnit 5
+- SLF4J
 
 ---
 ## Build and Run
