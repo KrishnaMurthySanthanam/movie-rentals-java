@@ -33,7 +33,7 @@ public class RentalInfo {
             double amount = movie.calculateMovieCharge(rental.rentalDays());
             int points = movie.getFrequentRenterPoints(rental.rentalDays());
 
-            logger.debug("Processed rental: '{}' for {} days → {} EUR", movie.getTitle(), rental.rentalDays(), amount);
+            logger.debug("Processed rental: '{}' for {} days → {} ", movie.getTitle(), rental.rentalDays(), amount);
 
             summary.addRental(new MovieRentalDetail(movie.getTitle(), amount, points));
         }
