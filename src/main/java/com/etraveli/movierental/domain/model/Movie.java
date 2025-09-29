@@ -10,12 +10,10 @@ import org.slf4j.LoggerFactory;
 public class Movie {
     private static final Logger logger = LoggerFactory.getLogger(Movie.class);
 
-    private final String id;
     private final String title;
     private Price price;
 
     public Movie(String id, String title, MovieCategory category) {
-        this.id = id;
         this.title = title;
         setPriceCode(category);
     }
