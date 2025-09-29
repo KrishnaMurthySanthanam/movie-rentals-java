@@ -8,7 +8,7 @@ import com.etraveli.movierental.service.RentalInfo;
 
 import java.util.List;
 
-public class Main {
+public class MovieRentalApplication {
 
     public static void main(String[] args) {
         String expectedResult = """
