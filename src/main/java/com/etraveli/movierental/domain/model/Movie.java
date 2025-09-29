@@ -13,7 +13,7 @@ public class Movie {
     private final String title;
     private Price price;
 
-    public Movie(String id, String title, MovieCategory category) {
+    public Movie(String title, MovieCategory category) {
         this.title = title;
         setPriceCode(category);
     }

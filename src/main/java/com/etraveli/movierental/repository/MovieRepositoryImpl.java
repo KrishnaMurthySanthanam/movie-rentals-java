@@ -12,10 +12,10 @@ public class MovieRepositoryImpl implements MovieRepository {
 
     public MovieRepositoryImpl() {
         movies = Map.of(
-                "F001", new Movie("F001", "You've Got Mail", MovieCategory.REGULAR),
-                "F002", new Movie("F002", "Matrix", MovieCategory.REGULAR),
-                "F003", new Movie("F003", "Cars", MovieCategory.CHILDREN),
-                "F004", new Movie("F004", "Fast & Furious X", MovieCategory.NEW_RELEASE)
+                "F001", new Movie( "You've Got Mail", MovieCategory.REGULAR),
+                "F002", new Movie( "Matrix", MovieCategory.REGULAR),
+                "F003", new Movie( "Cars", MovieCategory.CHILDREN),
+                "F004", new Movie( "Fast & Furious X", MovieCategory.NEW_RELEASE)
         );
     }
 
