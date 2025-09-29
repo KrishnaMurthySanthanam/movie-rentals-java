@@ -8,6 +8,11 @@ public class RegularPrice extends Price {
 
     @Override
     public double calculateRentalCharge(int daysMovieRented) {
-        return daysMovieRented <= BASE_DAYS ? BASE_CHARGE : BASE_CHARGE + (daysMovieRented - BASE_DAYS) * EXTRA_DAY_RATE;
+         if (daysMovieRented <= BASE_DAYS) {
+            return BASE_CHARGE;
+        }
+
+        int extraDays = daysMovieRented - BASE_DAYS;
+        return BASE_CHARGE + extraDays * EXTRA_DAY_RATE;
     }
 }
