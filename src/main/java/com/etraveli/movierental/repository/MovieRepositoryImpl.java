@@ -20,11 +20,6 @@ public class MovieRepositoryImpl implements MovieRepository {
     }
 
     @Override
-    public Map<String, Movie> getMovies() {
-        return movies;
-    }
-
-    @Override
     public Optional<Movie> findMovieById(String movieId) {
         return Optional.ofNullable(movies.get(movieId));
     }
