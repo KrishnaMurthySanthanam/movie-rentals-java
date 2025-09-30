@@ -26,7 +26,7 @@ mvn test
 ```
 ###  Run the application
 ```bash
-mvn exec:java -Dexec.mainClass="com.etraveli.movierental.Main"
+mvn exec:java -Dexec.mainClass="com.etraveli.movierental.MovieRenalApplication"
 ```
 ###  Package the application
 ```bash
